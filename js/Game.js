@@ -213,11 +213,6 @@ class Game {
       player.life -= 185 / 4;
     }
 
-    if(player.life <= 0){
-      gameState = 2;
-      this.gameOver();
-    }
-
       player.update();
     }
   }
